@@ -493,7 +493,7 @@ console.log(
     'color: #8b5cf6; font-size: 14px;'
 );
 console.log(
-    '%c📧 Contact: tahir.hussain@example.com',
+    '%c📧 Contact: tahirhussain.swe@gmail.com',
     'color: #10b981; font-size: 14px;'
 );
 
