@@ -560,6 +560,221 @@ html {
 }
 
 /* ========================================
+   CERTIFICATIONS SECTION
+   ======================================== */
+
+.certificate-card {
+    background: var(--card-bg);
+    padding: 1.5rem;
+    border-radius: 15px;
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+    transition: all var(--transition-speed) ease;
+    border: 1px solid transparent;
+    height: 100%;
+}
+
+.certificate-card:hover {
+    background: var(--card-hover);
+    transform: translateY(-5px);
+    border-color: var(--primary-color);
+    box-shadow: 0 15px 40px rgba(99, 102, 241, 0.2);
+}
+
+.certificate-icon {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    flex-shrink: 0;
+    transition: all var(--transition-speed) ease;
+}
+
+.certificate-card:hover .certificate-icon {
+    transform: scale(1.1) rotate(10deg);
+}
+
+.certificate-content {
+    flex-grow: 1;
+}
+
+.certificate-title {
+    color: var(--light-text);
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.certificate-issuer {
+    color: var(--gray-text);
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+}
+
+.certificate-date {
+    color: var(--secondary-color);
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+}
+
+.certificate-link {
+    font-size: 0.85rem;
+    transition: all var(--transition-speed) ease;
+}
+
+.certificate-link:hover {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    border-color: transparent;
+    transform: translateX(5px);
+}
+
+/* ========================================
+   COMPETITIVE PROGRAMMING SECTION
+   ======================================== */
+
+.coding-platform-card {
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all var(--transition-speed) ease;
+    border: 2px solid transparent;
+    height: 100%;
+    color: var(--light-text);
+}
+
+.coding-platform-card:hover {
+    background: var(--card-hover);
+    transform: translateY(-10px);
+    border-color: var(--primary-color);
+    box-shadow: 0 20px 50px rgba(99, 102, 241, 0.3);
+    color: var(--light-text);
+}
+
+.platform-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    transition: all var(--transition-speed) ease;
+}
+
+.platform-icon.leetcode {
+    background: linear-gradient(135deg, #FFA116, #FF6B00);
+    color: white;
+}
+
+.platform-icon.hackerrank {
+    background: linear-gradient(135deg, #2EC866, #00B760);
+    color: white;
+}
+
+.platform-icon.codeforces {
+    background: linear-gradient(135deg, #1F8ACB, #0066CC);
+    color: white;
+}
+
+.platform-icon.github {
+    background: linear-gradient(135deg, #6e5494, #4a3f6b);
+    color: white;
+}
+
+.coding-platform-card:hover .platform-icon {
+    transform: scale(1.1) rotate(360deg);
+}
+
+.platform-name {
+    color: var(--light-text);
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.platform-stats {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.stat-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem;
+    background: var(--darker-bg);
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    color: var(--gray-text);
+    font-size: 0.85rem;
+}
+
+.stat-value {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.platform-link {
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all var(--transition-speed) ease;
+}
+
+.coding-platform-card:hover .platform-link {
+    color: var(--primary-color);
+    transform: translateX(5px);
+}
+
+/* Problem Solving Highlights */
+.problem-solving-highlights {
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: 15px;
+    border-left: 4px solid var(--success-color);
+}
+
+.problem-solving-highlights h4 {
+    color: var(--light-text);
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.achievement-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    background: var(--darker-bg);
+    border-radius: 8px;
+    transition: all var(--transition-speed) ease;
+}
+
+.achievement-item:hover {
+    background: var(--card-hover);
+    transform: translateX(5px);
+}
+
+.achievement-item i {
+    font-size: 1.2rem;
+    margin-top: 0.1rem;
+}
+
+.achievement-item span {
+    color: var(--gray-text);
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* ========================================
    PROJECTS SECTION
    ======================================== */
 
