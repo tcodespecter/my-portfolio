@@ -1,0 +1,81 @@
+====================================
+IMAGE REQUIREMENTS FOR PORTFOLIO
+====================================
+
+Please add the following images to this folder before deploying your portfolio:
+
+1. profile.jpg
+   - Your professional profile picture
+   - Recommended size: 350x350px (square format)
+   - Should be a clear, professional headshot
+   - Format: JPG or PNG
+   - High quality for sharp display on retina screens
+
+2. project-ecommerce.jpg
+   - Screenshot of E-Commerce REST API project
+   - Recommended size: 600x400px (3:2 ratio)
+   - Format: JPG or PNG
+   - Can be a code snippet, dashboard, or demo screenshot
+
+3. project-realtime.jpg
+   - Screenshot of Real-Time Chat Application
+   - Recommended size: 600x400px (3:2 ratio)
+   - Format: JPG or PNG
+
+4. project-analytics.jpg
+   - Screenshot of Analytics Dashboard API
+   - Recommended size: 600x400px (3:2 ratio)
+   - Format: JPG or PNG
+
+5. project-microservices.jpg
+   - Screenshot of Microservices Architecture Demo
+   - Recommended size: 600x400px (3:2 ratio)
+   - Format: JPG or PNG
+
+6. project-auth.jpg
+   - Screenshot of Secure Authentication Service
+   - Recommended size: 600x400px (3:2 ratio)
+   - Format: JPG or PNG
+
+7. project-blog.jpg
+   - Screenshot of Blog CMS API
+   - Recommended size: 600x400px (3:2 ratio)
+   - Format: JPG or PNG
+
+====================================
+TIPS FOR PROJECT IMAGES:
+====================================
+
+- Use actual screenshots of your projects if available
+- If you don't have screenshots, you can use:
+  * Code editor screenshots with relevant code
+  * API documentation screenshots
+  * Architecture diagrams
+  * Placeholder images from services like:
+    - Unsplash.com (free stock photos)
+    - Pexels.com (free stock photos)
+    - Lorem Picsum (placeholder images)
+
+- Optimize images before adding:
+  * Use tools like TinyPNG.com or Squoosh.app
+  * Target file size: under 200KB per image
+  * Maintain aspect ratios to avoid distortion
+
+====================================
+TEMPORARY PLACEHOLDER OPTION:
+====================================
+
+Until you have your actual images, you can use placeholder services:
+
+For profile image:
+https://ui-avatars.com/api/?name=Muhammad+Tahir+Hussain&size=350&background=6366f1&color=fff
+
+For project images:
+https://via.placeholder.com/600x400/1e293b/6366f1?text=Project+Name
+
+Or from Lorem Picsum:
+https://picsum.photos/600/400
+
+====================================
+
+Once you add your images, you can delete this file.
